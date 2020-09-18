@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>teste-inmetrics</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Drivers/chromedriver</name>
+			<type>1</type>
+			<location>/usr/local/bin/chromedriver</location>
+		</link>
+		<link>
+			<name>Drivers/geckodriver</name>
+			<type>1</type>
+			<location>/home/elson/devtools/geckodriver-v0.27.0-linux64/geckodriver</location>
+		</link>
+	</linkedResources>
+</projectDescription>
