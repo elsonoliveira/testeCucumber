@@ -1,8 +1,8 @@
 Feature: Feature para testar o login da Inmetrics
 
   Background: 
-    Given Que eu execute o browser Chrome
-    When Eu acesso a pagina "http://www.inmrobo.tk/accounts/login/"
+    Given Que eu execute o browser
+    When Eu acesso o login da aplicacao
     Then Eu visualizo a pagina de login
 
   Scenario: Cenario para validar login com sucesso para usuario e senha validos

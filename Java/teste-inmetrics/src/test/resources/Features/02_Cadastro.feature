@@ -5,8 +5,8 @@
 Feature: Feature para testar o cadastro de logins
 
   Background: 
-    Given Que eu execute o browser Chrome
-    When Eu acesso a pagina "http://www.inmrobo.tk/accounts/login/"
+    Given Que eu execute o browser
+    When Eu acesso o login da aplicacao
     Then Eu visualizo a pagina de login
     And Eu seleciono cadastro
     And Eu visualizo o formulario de cadastro de logins

@@ -6,12 +6,16 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import br.com.inmetrics.teste.support.ConfigFileReader;
+
 public class LoginPage {
 	public WebDriver driver;
+	ConfigFileReader configFileReader;
 	
 	public LoginPage (WebDriver driver) {
 			this.driver = driver;
 			PageFactory.initElements(driver, this);
+			configFileReader= new ConfigFileReader();
 	}
 	
 
@@ -67,5 +71,11 @@ public class LoginPage {
 	
 	public void clickCadastreSe() {
 		linkCadastreSe.click();
+	}
+
+	public void abriPagina() {
+		
+		driver.get(configFileReader.getApplicationUrl());
+		
 	}
 }

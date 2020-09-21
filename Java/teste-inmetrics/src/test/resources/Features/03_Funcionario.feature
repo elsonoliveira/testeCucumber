@@ -3,8 +3,8 @@ Feature: Teste do Cadastro de Funcionario
 
     
   Background: 
-    Given Que eu execute o browser Chrome
-    When Eu acesso a pagina "http://www.inmrobo.tk/accounts/login/"
+    Given Que eu execute o browser
+    When Eu acesso o login da aplicacao
     Then Eu visualizo a pagina de login
     Then Eu informo login "T0000001" e senha "T0000001"
     And Eu visualizo o cadastro de funcionario
